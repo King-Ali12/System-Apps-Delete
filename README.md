@@ -20,6 +20,8 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 ## ⚙️ Requirements
 
 - Android phone rooted
+- Package Name Viewer apk
+- [Download apk](https://play.google.com/store/apps/details?id=com.csdroid.pkg)
 - [Termux](https://f-droid.org/en/packages/com.termux/)
 - Root access inside Termux (`su` command must work)
 
@@ -48,7 +50,7 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
     ./uninstall.sh
 
 ## 📝 How It Works
-
+* Download The Package name viewer apk from the playstore and install it after that open and search apk which you want uninstall 
 * The script lists installed apps and lets you search by a keyword (e.g., "face").
 * You choose which app to uninstall from the list.
 * If successful, it logs the uninstalled app details (package name + APK path) to:
@@ -73,10 +75,28 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 
 ---
 
-## 📸 Screenshot (Optional)
+## 📸 Screenshot (Package Names Viewer)
 
-> *(You can add a screenshot of the script in action for more impact)*
+> ()
 
 ---
+## 📸 Screenshot (Run The Tool)
 
-## 📜 License
+ ()
+
+## 📸 Screenshot (Search keywords)
+Package name like org.lineageos.etar
+You Type only line , etar any two words or more After That Press Enter 
+
+ ()
+
+## 📸 Screenshot (Select Apk)
+
+Checked Carefully Package Name Which apk You want Uninstall 
+
+()
+
+
+
+
+ 
