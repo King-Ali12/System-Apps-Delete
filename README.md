@@ -1,4 +1,13 @@
 # 🚀 System Apps Uninstaller for Android (Termux)
+This is a Termux script to:
+
+🔍 Search apps by name
+
+🗑 Uninstall system/user apps
+
+📝 Save the uninstalled package names
+
+♻ Restore those apps later using the saved list
 
 A simple yet powerful Bash script that helps you **search**, **select**, and **uninstall system apps** directly from Termux with root access.
 
@@ -10,10 +19,16 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 ## 📦 Features
 
 - 🔍 Search system apps by name (partial match supported)
-- ✅ Uninstall selected apps with confirmation
 - 🧾 Automatically logs all uninstalled apps to a backup file
-- 📁 Backup log stored in `/sdcard/AppBackup/uninstalled_apps.txt`
+- 📁 Backups packages stored in `/sdcard/AppBackup/uninstalled_apps.txt`
 - 🎨 Beautiful colored terminal UI for easy navigation
+- ✅ Search & Uninstall any installed app (system or user)  
+- ✅ Backup uninstalled package names to file  
+- ✅ Restore previously uninstalled apps by keyword  
+- ✅ Root check built-in  
+- ✅ Stylish colored terminal UI  
+- ✅ Fully works in **Termux** on rooted Android devices
+
 
 ---
 
@@ -31,48 +46,76 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 
 1. Open Termux
 
-2. Download the script:
-  ```
-    git clone https://github.com/King-Ali12/System-Apps-Delete.git
-   ```
-
-4. Give it permission to run:
+```
+pkg update && pkg install git -y
+git clone https://github.com/yourusername/system-uninstaller
+cd system-uninstaller
+```
+2. Give it permission to run:
 ```
     chmod +x uninstall.sh
 ```
-5. Make sure you have root access:
+3. Make sure you have root access:
    Run this command:-
   ```
     su
 ```
-6. Run the script:
+4. Run the script:
 ```
     ./uninstall.sh
 ```
+
+**🧩 Menu Options**
+╔════════════════════════════════╗
+║     1) Uninstall Apps                ║
+║     2) Restore Apps                  ║
+║     0) Exit                          ║
+╚════════════════════════════════╝
+**💡 Example: Uninstall App**
+👉 Enter your choice: 1
+⌨ Type part of app name: face
+🔍 Searching for: face
+
+1. com.facebook.katana
+   /system/app/Facebook/Facebook.apk
+
+🎯 Enter the number to uninstall: 1
+🗑 Uninstalling com.facebook.katana...
+✓ Successfully uninstalled!
+📝 Package saved to log: com.facebook.katana
+
+
+**♻️ Example: Restore App**
+👉 Enter your choice: 2
+🔍 Enter keyword to search from backup list: face
+
+1. com.facebook.katana
+🎯 Enter the number to restore: 1
+♻ Restoring com.facebook.katana...
+
+
 ## 📝 How It Works
 * Download The Package name viewer apk from the playstore and install it after that open and search apk which you want uninstall 
 * The script lists installed apps and lets you search by a keyword (e.g., "face").
 * You choose which app to uninstall from the list.
 * If successful, it logs the uninstalled app details (package name + APK path) to:
 
-  ```
+```
   /sdcard/AppBackup/uninstalled_apps.txt
-  
-**If You Want Restore Delete App Check uninstalled_apps.txt
-Here Save All Deleted Apk Package Name Copy Package Name And 
-Use Restore Apk Option
   ```
 
----
+**If You Want Restore Delete Apps Check uninstalled_apps.txt
+Here Save All Deleted Apk Package Name**
+
+
 ## 👑 Credits
 
 * 💡 Script by: **KING-ALI**
 * 🗨️ Telegram: [@KING_ALI12](https://t.me/KING_ALI12)
 
----
 ### 🧩 Step 1 - ***Launch the Tool**
 
-![Step 1](images/1.png):
+![Step 1](images/banner.png):
 ---
 
 ### 🔍 Step 2 - **Download Package Names Viewer **
