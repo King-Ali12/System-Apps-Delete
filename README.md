@@ -11,12 +11,12 @@ This is a Termux script to:
 
 A simple yet powerful Bash script that helps you **search**, **select**, and **uninstall system apps** directly from Termux with root access.
 
-> 🔥 Created by <b style="color:purple">**KING-ALI**/b><br>
+> 🔥 Created by <b style="color:purple">**KING-ALI**</b>
 > 📢 Join Telegram: [@KING_ALI12](https://t.me/KING_ALI12)
 
 ---
 
-<b style="color:green">## 📦 Features/b><br>
+<b style="color:green">## 📦 Features</b>
 
 - 🔍 Search system apps by name (partial match supported)
 - 🧾 Automatically logs all uninstalled apps to a backup file
@@ -32,7 +32,7 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 
 ---
 
-<b style="color:red">## ⚙️ Requirements/b><br>
+<b style="color:red">## ⚙️ Requirements</b>
 
 - Android phone rooted
 - Package Name Viewer apk
@@ -73,26 +73,24 @@ su
 ║     0) Exit                          ║
 ╚════════════════════════════════╝
 ```
-**💡 Example: Uninstall App**
-👉 Enter your choice: 1
-⌨ Type part of app name: face
-🔍 Searching for: face
-
-1. com.facebook.katana
-   /system/app/Facebook/Facebook.apk
-
-🎯 Enter the number to uninstall: 1<br>
-🗑 Uninstalling com.facebook.katana...<br>
-✓ Successfully uninstalled!<br>
-📝 Package saved to log: com.facebook.katana<br>
+### **💡 Example: Uninstall App**<br>
+   👉 Enter your choice: 1<br>
+   ⌨ Type part of app name: face<br>
+   🔍 Searching for: face<br>
+   1. com.facebook.katana
+   /system/app/Facebook/Facebook.apk<br>
+   🎯 Enter the number to uninstall: 1<br>
+   🗑 Uninstalling com.facebook.katana...<br>
+   ✓ Successfully uninstalled!<br>
+   📝 Package saved to log: com.facebook.katana<br>
 
 
-**♻️ Example: Restore App**
-👉 Enter your choice: 2<br>
-🔍 Enter keyword to search from backup list: face<br>
-1. com.facebook.katana<br>
-🎯 Enter the number to restore: 1<br>
-♻ Restoring com.facebook.katana...<br>
+### **♻️ Example: Restore App**
+   👉 Enter your choice: 2<br>
+   🔍 Enter keyword to search from backup list: face<br>
+    1. com.facebook.katana<br>
+   🎯 Enter the number to restore: 1<br>
+   ♻ Restoring com.facebook.katana...<br>
 
 
 ## 📝 How It Works
