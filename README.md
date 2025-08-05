@@ -11,12 +11,12 @@ This is a Termux script to:
 
 A simple yet powerful Bash script that helps you **search**, **select**, and **uninstall system apps** directly from Termux with root access.
 
-> 🔥 Created by <b style="color:purple">**KING-ALI**</b>
+> 🔥 Created by **KING-ALI**
 > 📢 Join Telegram: [@KING_ALI12](https://t.me/KING_ALI12)
 
 ---
 
-<b style="color:green">## 📦 Features</b>
+## 📦 Features
 
 - 🔍 Search system apps by name (partial match supported)
 - 🧾 Automatically logs all uninstalled apps to a backup file
@@ -32,7 +32,7 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 
 ---
 
-<b style="color:red">## ⚙️ Requirements</b>
+## ⚙️ Requirements
 
 - Android phone rooted
 - Package Name Viewer apk
@@ -44,28 +44,28 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 
 ## 🚀 Installation & Usage
 
-1. Open Termux
+### **1. Open Termux**
 
 ```
 pkg update && pkg install git -y
 git clone https://github.com/yourusername/system-uninstaller
 cd system-uninstaller
 ```
-2. Give it permission to run:
+### **2. Give it permission to run:**
 ```
 chmod +x uninstall.sh
 ```
-3. Make sure you have root access:
+### **3. Make sure you have root access:**
    Run this command:-
   ```
 su
 ```
-4. Run the script:
+### **4. Run the script:**
 ```
 ./uninstall.sh
 ```
 
-**🧩 Menu Options**
+### **🧩 Menu Options**
 ```
 ╔════════════════════════════════╗
 ║     1) Uninstall Apps                ║
@@ -77,7 +77,7 @@ su
    👉 Enter your choice: 1<br>
    ⌨ Type part of app name: face<br>
    🔍 Searching for: face<br>
-   1. com.facebook.katana
+   1. com.facebook.katana<br>
    /system/app/Facebook/Facebook.apk<br>
    🎯 Enter the number to uninstall: 1<br>
    🗑 Uninstalling com.facebook.katana...<br>
