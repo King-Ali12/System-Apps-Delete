@@ -28,28 +28,23 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 ## 🚀 Installation & Usage
 
 1. Open Termux
-2. Make sure you have root access:
-   ```bash
-   su
-````
 
-3. Download the script:
+2. Download the script:
 
-   ```bash
-   curl -o uninstall.sh https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/uninstall.sh
-   ```
-4. Give it permission to run:
+      git clone https://github.com/King-Ali12/System-Apps-Delete.git
 
-   ```bash
+3. Give it permission to run:
+
    chmod +x uninstall.sh
-   ```
-5. Run the script:
 
-   ```bash
-   ./uninstall.sh
-   ```
+4. Make sure you have root access:
+   Run this command:-
+  
+   su
 
----
+6. Run the script:
+
+    ./uninstall.sh
 
 ## 📝 How It Works
 
