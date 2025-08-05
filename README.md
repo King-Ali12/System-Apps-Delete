@@ -30,18 +30,19 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 1. Open Termux
 
 2. Download the script:
-
+  ```
       git clone https://github.com/King-Ali12/System-Apps-Delete.git
+   ```
 
-3. Give it permission to run:
-
+4. Give it permission to run:
+```
    chmod +x uninstall.sh
-
-4. Make sure you have root access:
+```
+5. Make sure you have root access:
    Run this command:-
-  
+  ```
    su
-
+```
 6. Run the script:
 
     ./uninstall.sh
