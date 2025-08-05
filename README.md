@@ -11,12 +11,12 @@ This is a Termux script to:
 
 A simple yet powerful Bash script that helps you **search**, **select**, and **uninstall system apps** directly from Termux with root access.
 
-> 🔥 Created by **KING-ALI**  
+> 🔥 Created by <b style="color:purple">**KING-ALI**/b><br>
 > 📢 Join Telegram: [@KING_ALI12](https://t.me/KING_ALI12)
 
 ---
 
-## 📦 Features
+<b style="color:green">## 📦 Features/b><br>
 
 - 🔍 Search system apps by name (partial match supported)
 - 🧾 Automatically logs all uninstalled apps to a backup file
@@ -32,7 +32,7 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 
 ---
 
-## ⚙️ Requirements
+<b style="color:red">## ⚙️ Requirements/b><br>
 
 - Android phone rooted
 - Package Name Viewer apk
@@ -81,18 +81,18 @@ su
 1. com.facebook.katana
    /system/app/Facebook/Facebook.apk
 
-🎯 Enter the number to uninstall: 1
-🗑 Uninstalling com.facebook.katana...
-✓ Successfully uninstalled!
-📝 Package saved to log: com.facebook.katana
+🎯 Enter the number to uninstall: 1<br>
+🗑 Uninstalling com.facebook.katana...<br>
+✓ Successfully uninstalled!<br>
+📝 Package saved to log: com.facebook.katana<br>
 
 
 **♻️ Example: Restore App**
-👉 Enter your choice: 2
-🔍 Enter keyword to search from backup list: face
-1. com.facebook.katana
-🎯 Enter the number to restore: 1
-♻ Restoring com.facebook.katana...
+👉 Enter your choice: 2<br>
+🔍 Enter keyword to search from backup list: face<br>
+1. com.facebook.katana<br>
+🎯 Enter the number to restore: 1<br>
+♻ Restoring com.facebook.katana...<br>
 
 
 ## 📝 How It Works
@@ -104,10 +104,10 @@ su
 ```
   /sdcard/AppBackup/uninstalled_apps.txt
   ```
-**⚠️ Don't Delete uninstalled_apps.txt File If You Delete This File Then You Can Not Restore Deleted Apps Easily
-You Need Package Name For Restore Apps**
-**If You Want Restore Delete Apps Check uninstalled_apps.txt
-Here Save All Deleted Apk Package Name**
+## **⚠️ Don't Delete uninstalled_apps.txt File If You Delete This File Then You Can Not Restore Deleted Apps Easily
+## You Need Package Name For Restore Apps**
+### **If You Want Restore Delete Apps Check uninstalled_apps.txt
+### Here Save All Deleted Apk Package Name**
 
 
 ## 👑 Credits
@@ -115,12 +115,12 @@ Here Save All Deleted Apk Package Name**
 * 💡 Script by: **KING-ALI**
 * 🗨️ Telegram: [@KING_ALI12](https://t.me/KING_ALI12)
 
-### 🧩 Step 1 - ***Launch the Tool**
+### 🧩 Step 1 - **Launch the Tool**
 
 ![Step 1](images/banner.jpg):
 ---
 
-### 🔍 Step 2 - **Download Package Names Viewer **
+### 🔍 Step 2 - Download Package Names Viewer
 Search Apk Which You Want Uninstall:
 
 ![Step 2](images/2.jpg):
@@ -139,7 +139,7 @@ Checked Carefully Package Name Which APK You Want to Uninstall:
 ![Step 4](images/4.png):
 
 ---
-**Restore The Uninstall Apps**
+### **Restore The Uninstall Apps**
 Press 2 For Restore Deleted App 
 Enter The Package Name 
 If Uninstall Package Name txt File is Present Then No need Enter Full Package Name
