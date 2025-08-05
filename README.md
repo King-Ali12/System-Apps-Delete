@@ -52,6 +52,7 @@ git clone https://github.com/King-Ali12/System-Apps-Delete.git
 ```
 ### **2. Give it permission to run:**
 ```
+cd System-Apps-uninstall
 chmod +x uninstaller
 ```
 ### **3. Make sure you have root access:**
