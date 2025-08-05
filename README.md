@@ -33,22 +33,22 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 
 2. Download the script:
   ```
-      git clone https://github.com/King-Ali12/System-Apps-Delete.git
+    git clone https://github.com/King-Ali12/System-Apps-Delete.git
    ```
 
 4. Give it permission to run:
 ```
-   chmod +x uninstall.sh
+    chmod +x uninstall.sh
 ```
 5. Make sure you have root access:
    Run this command:-
   ```
-   su
+    su
 ```
 6. Run the script:
-
+```
     ./uninstall.sh
-
+```
 ## 📝 How It Works
 * Download The Package name viewer apk from the playstore and install it after that open and search apk which you want uninstall 
 * The script lists installed apps and lets you search by a keyword (e.g., "face").
@@ -57,7 +57,41 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 
   ```
   /sdcard/AppBackup/uninstalled_apps.txt
+  
+**If You Want Restore Delete App Check uninstalled_apps.txt
+Here Save All Deleted Apk Package Name Copy Package Name And 
+Use Restore Apk Option
   ```
+
+---
+## 👑 Credits
+
+* 💡 Script by: **KING-ALI**
+* 🗨️ Telegram: [@KING_ALI12](https://t.me/KING_ALI12)
+
+---
+### 🧩 Step 1 - ***Launch the Tool**
+
+![Step 1](images/1.png):
+---
+
+### 🔍 Step 2 - **Download Package Names Viewer **
+Search Apk Which You Want Uninstall:
+
+![Step 2](images/2.png):
+---
+
+### 🔍 Step 3 - Keywords Search
+Package name like `org.lineageos.etar`
+You type only **`line`, `etar`** — any two words or more, then press Enter:
+
+![Step 3](images/3.png):
+
+---
+### 🗑️ Step 3 - **Select Apk and Uninstall**
+Checked Carefully Package Name Which APK You Want to Uninstall:
+
+![Step 4](images/4.png):
 
 ---
 
@@ -67,36 +101,6 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 * 🛑 Always double-check before confirming an uninstallation.
 
 ---
-
-## 👑 Credits
-
-* 💡 Script by: **KING-ALI**
-* 🗨️ Telegram: [@KING_ALI12](https://t.me/KING_ALI12)
-
----
-
-## 📸 Screenshot (Package Names Viewer)
-
-> ()
-
----
-## 📸 Screenshot (Run The Tool)
-
- ()
-
-## 📸 Screenshot (Search keywords)
-Package name like org.lineageos.etar
-You Type only line , etar any two words or more After That Press Enter 
-
- ()
-
-## 📸 Screenshot (Select Apk)
-
-Checked Carefully Package Name Which apk You want Uninstall 
-
-()
-
-
 
 
  
