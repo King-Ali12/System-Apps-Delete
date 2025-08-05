@@ -53,24 +53,26 @@ cd system-uninstaller
 ```
 2. Give it permission to run:
 ```
-    chmod +x uninstall.sh
+chmod +x uninstall.sh
 ```
 3. Make sure you have root access:
    Run this command:-
   ```
-    su
+su
 ```
 4. Run the script:
 ```
-    ./uninstall.sh
+./uninstall.sh
 ```
 
 **🧩 Menu Options**
+```
 ╔════════════════════════════════╗
 ║     1) Uninstall Apps                ║
 ║     2) Restore Apps                  ║
 ║     0) Exit                          ║
 ╚════════════════════════════════╝
+```
 **💡 Example: Uninstall App**
 👉 Enter your choice: 1
 ⌨ Type part of app name: face
@@ -88,7 +90,6 @@ cd system-uninstaller
 **♻️ Example: Restore App**
 👉 Enter your choice: 2
 🔍 Enter keyword to search from backup list: face
-
 1. com.facebook.katana
 🎯 Enter the number to restore: 1
 ♻ Restoring com.facebook.katana...
@@ -103,7 +104,8 @@ cd system-uninstaller
 ```
   /sdcard/AppBackup/uninstalled_apps.txt
   ```
-
+**⚠️ Don't Delete uninstalled_apps.txt File If You Delete This File Then You Can Not Restore Deleted Apps Easily
+You Need Package Name For Restore Apps**
 **If You Want Restore Delete Apps Check uninstalled_apps.txt
 Here Save All Deleted Apk Package Name**
 
@@ -115,13 +117,13 @@ Here Save All Deleted Apk Package Name**
 
 ### 🧩 Step 1 - ***Launch the Tool**
 
-![Step 1](images/banner.png):
+![Step 1](images/banner.jpg):
 ---
 
 ### 🔍 Step 2 - **Download Package Names Viewer **
 Search Apk Which You Want Uninstall:
 
-![Step 2](images/2.png):
+![Step 2](images/2.jpg):
 ---
 
 ### 🔍 Step 3 - Keywords Search
@@ -131,12 +133,19 @@ You type only **`line`, `etar`** — any two words or more, then press Enter:
 ![Step 3](images/3.png):
 
 ---
-### 🗑️ Step 3 - **Select Apk and Uninstall**
+### 🗑️ Step 4 - **Select Apk and Uninstall**
 Checked Carefully Package Name Which APK You Want to Uninstall:
 
 ![Step 4](images/4.png):
 
 ---
+**Restore The Uninstall Apps**
+Press 2 For Restore Deleted App 
+Enter The Package Name 
+If Uninstall Package Name txt File is Present Then No need Enter Full Package Name
+If File Not present Then Enter Full Package Name
+
+![Restore](images/4.png):
 
 ## ⚠️ Disclaimer
 
