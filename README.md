@@ -48,12 +48,11 @@ A simple yet powerful Bash script that helps you **search**, **select**, and **u
 
 ```
 pkg update && pkg install git -y
-git clone https://github.com/yourusername/system-uninstaller
-cd system-uninstaller
+git clone https://github.com/King-Ali12/System-Apps-Delete.git
 ```
 ### **2. Give it permission to run:**
 ```
-chmod +x uninstall.sh
+chmod +x uninstaller
 ```
 ### **3. Make sure you have root access:**
    Run this command:-
@@ -62,7 +61,7 @@ su
 ```
 ### **4. Run the script:**
 ```
-./uninstall.sh
+./uninstaller
 ```
 
 ### **🧩 Menu Options**
@@ -128,13 +127,13 @@ Search Apk Which You Want Uninstall:
 Package name like `org.lineageos.etar`
 You type only **`line`, `etar`** — any two words or more, then press Enter:
 
-![Step 3](images/3.png):
+![Step 3](images/keywords_search.jpg):
 
 ---
 ### 🗑️ Step 4 - **Select Apk and Uninstall**
 Checked Carefully Package Name Which APK You Want to Uninstall:
 
-![Step 4](images/4.png):
+![Step 4](images/uninstall.jpg):
 
 ---
 ### **Restore The Uninstall Apps**
@@ -143,7 +142,7 @@ Enter The Package Name
 If Uninstall Package Name txt File is Present Then No need Enter Full Package Name
 If File Not present Then Enter Full Package Name
 
-![Restore](images/4.png):
+![Restore](images/restore.jpg):
 
 ## ⚠️ Disclaimer
 
